@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product-landing-page</title>
+    <link rel="stylesheet" href="product-landing-page.css">
+</head>
+<body>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <div id='container'>
+      <input type='checkbox' name='' id='menu_control'>
+      <header id='header'>
+        <div class='logo'>
+          <img id='header-img' src='https://picsum.photos/60/60?random=11' alt='Pro coffee teaching'/>
+        </div>
+        <h1>Pro Coffee Art</h1>
+        <label for='menu_control' class='menu_btn'>
+          <span>menu</span>
+        </label>
+        <nav id='nav-bar'>
+          <ul>
+            <li><a id='nav-link' href='#latte-art'>Latte Art</a></li>
+            <li><a id='nav-link' href='#courses'>Courses</a></li>
+            <li><a id='nav-link' href='#apply'>Apply</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <div class='wrap'>
+        <section id='send-email'>
+        <h2>Want to get course information and discounts?</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input 
+                 id='email' 
+                 type='email' 
+                 name='email' 
+                 placeholder=' Enter your email address' 
+                 required />
+          <input 
+                 id='submit' 
+                 type='submit' 
+                 value='Submit' />
+        </form>
+        </section>
+        
+        <section id='latte-art'>
+          <iframe id ='video' width="560" height="315" src="https://www.youtube.com/embed/-F7dM2FeMtI" frameborder="0" allowfullscreen></iframe>
+        </section>
+        
+        <section id='courses'>
+          <div class='course'>
+            <div class='icon'><i class="fas fa-coffee"></i></div>
+            <div>
+              <h2>Foundation Course</h2>
+              <p>Suitable for people who are interested in latte art.</P>
+            </div>
+          </div>
+          <div class='course'>
+            <div class='icon'><i class="fas fa-diagnoses"></i></i>
+            </div>
+            <div>
+              <h2>Advanced course</h2>
+              <p>Suitable for beginners who are interested in latte or have participated in coffee latte art.</P>
+            </div>
+          </div>
+          <div class='course'>
+            <div class='icon'><i class="fas fa-chalkboard-teacher"></i></div>
+            <div>
+              <h2>Professional Courses</h2>
+              <p>Suitable for those who are interested in applying for the Latte Art Grading System (L.A.G.S.) certificate in the future or those who have participated in the coffee latte intermediate skill class.</P>
+            </div>
+          </div>
+         </section>
+         <section id='apply'>
+           <div class='item'>
+             <div class='icon'><i class="fas fa-mug-hot"></i></div>
+             <div class='text'>
+               <h3>Foundation Course</h3>
+               <ul>
+                 <li>Charge per person: £70</li>
+                 <li>Course length: 2 hours</li>
+                 <li>Course quota: 6-8 people</li>
+                </ul>
+                <button class='btn'>Apply us</button>
+            </div>
+           </div>
+            <div class='item'>
+              <div class='icon'><i class="fas fa-mug-hot"></i></div>
+              <div class='text'>
+                <h3>Advanced course</h3>
+                <ul>
+                  <li>Charge per person: £210</li>
+                  <li>Course length: 3 hours</li>
+                  <li>Course quota: 2-4 people</li>
+                </ul>
+                <button class='btn'>Apply us</button>
+            </div>
+           </div>
+            <div class='item'>
+              <div class='icon'><i class="fas fa-mug-hot"></i></div>
+              <div class='text'>
+                <h3>Professional Courses</h3>
+                <ul>
+                  <li>Charge per person: £420</li>
+                  <li>Course length: 3 hours</li>
+                  <li>Course quota: 1-2 people</li>
+                </ul>
+                <button class='btn'>Apply us</button>
+            </div>
+           </div>
+          </section>
+         </div>
+              <footer>
+                &copy; 2021 by Selena
+              </footer>
+    </div>  
+</body>
+</html>
